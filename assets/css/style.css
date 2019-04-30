@@ -1,0 +1,44 @@
+.operacoes{
+	width: 300px;
+	height: 50px;
+	display: flex;
+	margin-bottom: 10px;
+}
+.interruptor{
+	width: 50%;
+	height: 48px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+.interruptorInt{
+	width: 50%;
+	height: 48px;
+	background-color: #ddd;	
+	text-align: center;
+	line-height: 48px;
+	color: #778899;
+}
+.trocarLampada{
+	width: 50%;
+	height: 50px;
+	background-color: #483D8B;
+	justify-content: center;
+	display: none;
+	align-items: center;
+}
+.trocarLampada:hover{
+	cursor: pointer;
+	background-color: #6A5ACD;
+}
+.lampada{
+	width: 300px;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #000;
+	background-color: #ccc;
+}
+#luz{
+	cursor: pointer;
+}
